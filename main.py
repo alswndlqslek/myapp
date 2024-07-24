@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data
-file_path = '/mnt/data/202406_202406_연령별인구현황_월간.csv'
+file_path = '202406_202406_연령별인구현황_월간.csv'
 data = pd.read_csv(file_path, encoding='euc-kr')
 
 # Preprocess the data
